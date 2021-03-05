@@ -6,7 +6,6 @@ module.exports = function toReadable (number) {
         70: 'seventy', 80: 'eighty', 90: 'ninety'
     }
     let readableNumber, hundreds, tens, units
-    console.log(String(number))
 
     if (numbers[number]) {
         readableNumber = numbers[number];
@@ -32,6 +31,5 @@ module.exports = function toReadable (number) {
                 break;
         }
 
-    console.log(readableNumber)
     return readableNumber
 }
